@@ -6,6 +6,7 @@ require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20210208195552-ff826a37aa15 // indirect
 	github.com/faiface/beep v1.0.2
+	github.com/gen2brain/raylib-go v0.0.0-20210526111428-ace572fead21 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.2 // indirect
 	github.com/hajimehoshi/oto v0.7.1 // indirect
 	github.com/mattn/go-sqlite3 v1.14.7

@@ -210,9 +210,9 @@ func run() error {
 		r.Fill(uint16(18+i), sideCol, judgement.Name+":  ")
 	}
 
+	song := buffer.Streamer(0, buffer.Len())
 	go func() {
 		time.Sleep(*config.Delay + *config.Offset)
-		song := buffer.Streamer(0, buffer.Len())
 		speaker.Play(song)
 		for {
 			if song.Position() == song.Len() {
